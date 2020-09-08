@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+      <div class="cam-div">
+        <canvas class="camera" id="videoCanvas" width="400" height="320"></canvas>
+        <button id="toGallery" class="btn-scshot margin-lft">
+        <a href="./gallery.html"> Go To Gallery</a> 
+      </button>
+      </div>
+      
+      <button id="takesc" class="btn-scshot">Take Screenshot</button>
+      <img id="imgsc" src="" />
+    </div>
+
+    <script type="text/javascript" src="jsmpeg.min.js"></script>
+    <script src="canvas.js"></script>
+    <script type="text/javascript">
+      var url = 'ws://localhost:9000/';
+      var player = new JSMpeg.Player(url, {canvas:document.getElementById('videoCanvas'),disableGl: true, autoplay:true,audio:false,loop:true})
+  </script> 
+    
+   
+</body>
+</html>

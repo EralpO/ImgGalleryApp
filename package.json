@@ -1,0 +1,24 @@
+{
+  "name": "camStream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cycjimmy/jsmpeg-player": "^5.0.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "ffmpeg": "0.0.4",
+    "html2canvas": "^1.0.0-rc.7",
+    "jsmpeg": "^1.0.0",
+    "node-onvif": "^0.1.7",
+    "node-rtsp-stream": "0.0.9",
+    "node-rtsp-stream-es6": "^1.0.7",
+    "socket.io": "^2.3.0"
+  }
+}
