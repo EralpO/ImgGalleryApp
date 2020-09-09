@@ -5,7 +5,7 @@ const app = express();
 var path = require("path");
 
      
-
+//App.js dosyasını çalıştırdıktan sonra index.html üzerinden uygulamaya ulaşabilirsiniz.
 
 
 
